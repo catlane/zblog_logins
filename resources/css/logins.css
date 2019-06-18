@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*
+作者：新鲜人
+地址：http://www.htmlit.com.cn
+邮箱：u2lei@yahoo.com.cn
+     xinxr@msn.com
+*/
+a{transition: all 0.35s ease 0s;}
+body{background:#EAEDF1;}
+
+/*后台登陆页面*/
+.bg{width:100%;height:100%;position:absolute;left:0;top:0;color:#fff;background:url(../img/login-bg.jpg) no-repeat center center;}
+.bg #wrapper{width:500px;background:rgba(255,255,255,0.9);box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);padding:40px;border-radius:5px;position:absolute;left:50%;top:50%;margin-top:-180px;margin-left:-250px;}
+.bg .logo{margin:0!important;width:100%!important;height:100px!important;background: url(../img/logo.png) no-repeat center 0;background-size: auto 60px!important;}
+.loginw{margin-bottom:0;}
+.bg .login{width:100%!important;}
+.bg dd.username,.bg dd.password,dd.submit{width:100%!important;margin-bottom:20px;}
+.bg .username,.bg .userbtn {line-height: 35px!important;height: 35px!important;}
+.bg dd.username label,.bg dd.password label{width:20%;padding:0!important;height:35px!important;line-height:35px!important;border-radius:3px 0 0 3px!important;text-align:center!important;}
+.bg input#edtUserName,.bg input#edtPassWord{width:80%;padding:0 1%!important;border-radius:0 3px 3px 0!important;height:35px!important;line-height:35px!important;border:1px solid #ddd!important;font-size:14px;font-family: "Microsoft YaHei", Verdana, sans-serif;color:#7e7e7e;}
+.login dl{height:auto!important;}
+.bg input[type='text'],.bg input[type='password']{border:0!important;}
+dd.checkbox{display:none;}
+.bg input#btnPost{width:100%!important;line-height:30px;border-radius:3px!important;}
+.bg .divHeader{padding:0;line-height:50px;height:50px;font-weight:700;color:#fff;}
+.bg .login{height:auto;}
+.loginw .content > div > p{color:#000;}
+.loginw > form > p > a{color:#fff;padding:5px 10px;border-radius:2px;}
+body.short{background:url(../img/login-bg.jpg) no-repeat center center transparent!important;background-attachment: fixed!important;
+    background-size: cover!important;}
+/*body.short .bg{color:#7e7e7e;height:100%!important;background:url() no-repeat center center transparent!important;}*/
+body.short .bg #wrapper{height:auto!important;width:800px;margin-left:-400px;top:50px;margin-top:0;overflow:hidden;margin-bottom:50px;}

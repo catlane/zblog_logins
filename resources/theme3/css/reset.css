@@ -1,0 +1,15 @@
+/*reset*/
+
+.wrap{max-width: 100%;min-height: 100%;overflow: hidden;margin: 0 auto;background: #ccc;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear:both;}
+.red{color: #f60;}
+
+.ececk_warning{
+	font-size: 13px;
+	color: red;
+	width: 300px;
+	margin: 0 auto;
+}
